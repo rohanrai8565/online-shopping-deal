@@ -54,7 +54,7 @@ const Checkout = () => {
                         <strong>Total amount</strong>
                       </div>
                       <span>
-                        <strong>${Math.round(subtotal + shipping)}</strong>
+                        <strong>₹{Math.round(subtotal + shipping)}</strong>
                       </span>
                     </li>
                   </ul>
@@ -168,7 +168,7 @@ const Checkout = () => {
                         <br />
                         <select className="form-select" id="state" required>
                           <option value="">Choose...</option>
-                          <option>Punjab</option>
+                          <option>karnataka</option>
                         </select>
                         <div className="invalid-feedback">
                           Please provide a valid state.
